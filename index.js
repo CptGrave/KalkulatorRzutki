@@ -10,8 +10,8 @@ let gameSettings = {
   playerCount: 2,
   legCount: 3,
   setCount: 2,
-  playerName0: "Michałek",
-  playerName1: "Łukaszek"
+  playerName0: "Player1",
+  playerName1: "Player2"
 }
 
 let gameState = {
