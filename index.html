@@ -10,25 +10,25 @@
 <body>
   <div data-component="gameSetupForm">
     <div class="container">
-      <h1>Rzutki setup v2</h1>
+      <h1>Dart game setup</h1>
 
       <form id="gameSetupForm">
         <div class="mb-3">
-          <label for="gameSetupForm-playerCount" class="form-label">Ilość graczy (<span data-game-setting="playerCount"></span>)</label>
+          <label for="gameSetupForm-playerCount" class="form-label">Number of players (<span data-game-setting="playerCount"></span>)</label>
           <input type="range" class="form-range" min="2" max="4" id="gameSetupForm-playerCount" name="playerCount">
         </div>
 
         <div class="mb-3">
-          <label for="gameSetupForm-legCount" class="form-label">Ilość legów (<span data-game-setting="legCount"></span>)</label>
+          <label for="gameSetupForm-legCount" class="form-label">Number of legs (<span data-game-setting="legCount"></span>)</label>
           <input type="range" class="form-range" min="3" max="5" id="gameSetupForm-legCount" name="legCount">
         </div>
 
         <div class="mb-3">
-          <label for="gameSetupForm-setCount" class="form-label">Ilość setów (<span data-game-setting="setCount"></span>)</label>
+          <label for="gameSetupForm-setCount" class="form-label">Number of sets (<span data-game-setting="setCount"></span>)</label>
           <input type="range" class="form-range" min="2" max="5" id="gameSetupForm-setCount" name="setCount">
         </div>
 
-        <p><strong>Imiona graczy</strong></p>  
+        <p><strong>Players names</strong></p>  
         
         <div class="mb-3 d-none" data-template="playerName">
           <input type="text" class="form-control">
@@ -41,7 +41,7 @@
 
   <div data-component="gameInterface" class="d-none">
     <div class="container">
-      <h1>Rzutki Gramy</h1>
+      <h1>Game window</h1>
 
       <div class="row">
         <div class="col">
